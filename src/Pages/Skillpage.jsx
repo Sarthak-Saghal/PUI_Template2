@@ -1,6 +1,6 @@
 import React from 'react'
 import { Error } from "./Errorpage";
-export const Skill = () => {
+export const Skillpage = () => {
   return (
     <div><Error/></div>
   )

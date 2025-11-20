@@ -5,7 +5,7 @@ import { Errorpage } from './Pages/Errorpage';
 import { Contact } from './Pages/Contact';
 import { Portfolio } from './Pages/Portfolio';
 import { Resume } from './Pages/Resume';
-import { Skill } from './Pages/skill';
+import { Skillpage } from './Pages/Skillpage';
 import { Testimonials } from './Pages/Testimonials';
 
 
@@ -21,7 +21,7 @@ export default function App() {
         <Route path="/contact" element={<Contact/>}/>
         <Route path="/portfolio" element={<Portfolio/>}/>
         <Route path="/resume" element={<Resume/>}/>
-        <Route path="/skill" element={<Skill/>}/>
+        <Route path="/skillpage" element={<Skillpage/>}/>
         <Route path="/testimonials" element={<Testimonials/>}/>
 
          <Route path="*" element={<Errorpage/>} />
