@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { ArrowLeft } from "lucide-react";
 import { Link } from "react-router-dom";
 
-export const Error = () => {
+export const Errorpage = () => {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-[#0E0018] text-white px-6">
       <motion.h1
