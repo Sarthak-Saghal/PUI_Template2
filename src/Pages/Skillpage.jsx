@@ -1,7 +1,7 @@
 import React from 'react'
-import { Error } from "./Errorpage";
+import { Errorpage } from "./Errorpage";
 export const Skillpage = () => {
   return (
-    <div><Error/></div>
+    <div><Errorpage/></div>
   )
 }

@@ -1,7 +1,8 @@
 import React from 'react'
+import { Errorpage } from './Errorpage'
 
 export const Testimonials = () => {
   return (
-    <div> <Error/></div>
+    <div> <Errorpage/></div>
   )
 }

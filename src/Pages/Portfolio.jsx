@@ -1,7 +1,7 @@
 import React from 'react'
-import { Error } from "./Errorpage";
+import { Errorpage } from "./Errorpage";
 export const Portfolio = () => {
   return (
-    <div><Error/></div>
+    <div><Errorpage/></div>
   )
 }

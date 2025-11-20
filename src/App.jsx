@@ -7,6 +7,7 @@ import { Portfolio } from './Pages/Portfolio';
 import { Resume } from './Pages/Resume';
 import { Skillpage } from './Pages/Skillpage';
 import { Testimonials } from './Pages/Testimonials';
+import { Careers } from './Pages/Careers';
 
 
 export default function App() {
