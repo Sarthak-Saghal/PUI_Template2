@@ -48,7 +48,7 @@ const Navbar = () => {
 
         {/* Desktop Button */}
         <button className="hidden md:block ml-auto px-3 sm:px-4 py-1 sm:py-2 bg-purple-600 rounded-lg hover:bg-purple-700 transition-all duration-300 hover:shadow-lg hover:shadow-purple-600/50 active:scale-95 text-sm xs:text-base">
-          LiveNow
+          Connect
         </button>
 
         {/* Mobile Menu Toggle */}
@@ -83,7 +83,7 @@ const Navbar = () => {
           <button
             className="w-full mt-2 px-3 sm:px-4 py-2 bg-purple-600 rounded-lg hover:bg-purple-700 transition-all duration-300 hover:shadow-lg hover:shadow-purple-600/50 active:scale-95 text-sm xs:text-base"
           >
-            LiveNow
+            Connect
           </button>
         </ul>
       </div>

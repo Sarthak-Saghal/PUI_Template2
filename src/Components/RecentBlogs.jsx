@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import { X } from 'lucide-react';
+import { X } from "lucide-react";
 
 const blogs = [
   {
@@ -56,7 +56,9 @@ export const RecentBlogs = () => {
       {/* BLOG SECTION */}
       <section className="bg-black text-white py-24 px-6 flex justify-center">
         <div className="max-w-7xl w-full text-center">
-          <h1 className="text-7xl pb-10 text-purple-500 font-semibold text-center " >Blogs</h1>
+          <h1 className="text-7xl pb-10 text-purple-500 font-semibold text-center ">
+            Blogs
+          </h1>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-12">
             {blogs.map((blog, i) => (
               <motion.div
@@ -123,7 +125,7 @@ export const RecentBlogs = () => {
                 onClick={() => setActiveBlog(null)}
                 className="ml-auto mt-5 bg-gradient-to-r from-purple-700 to-purple-500 hover:opacity-90 px-8 py-3 rounded-xl font-semibold text-lg shadow-lg transition flex items-center"
               >
-                Close <X size={20}/>
+                Close <X size={20} />
               </button>
             </div>
           </motion.div>
